@@ -71,7 +71,7 @@
             const data = this.bloodGroups.map(group => {
                 const peopleInAgeGroup = group.people.filter(person => {
                     const age = person.age;
-                    if (ageGroup === '11-20') return age >= 11 && age <= 20;
+                    if (ageGroup === '11-20') return age >= 11 && age <= 20; 
                     if (ageGroup === '21-30') return age >= 21 && age <= 30;
                     if (ageGroup === '31-40') return age >= 31 && age <= 40;
                 });
